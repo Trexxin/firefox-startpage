@@ -1,25 +1,117 @@
 {
-  "short_name": "Startpage",
-  "name": "Welcome back Trexxin!",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+  "yags-general": {
+    "img": "https://e4p7c9i3.stackpathcdn.com/wp-content/uploads/2019/05/tumblr_p320aq1osj1vjxiz1o1_1280.gif?iv=344",
+    "title": "Welcome Back Trexxin",
+    "displayImg": true,
+    "font": "Quicksand",
+    "enableFonts": false
+  },
+  "yags-search": {
+    "placeholder": "Search the web",
+    "engine": "duckduckgo",
+    "forwardingLookup": {
+      "/": "/",
+      "deepl": "https://deepl.com/",
+      "reddit": "https://reddit.com/",
+      "maps": "https://maps.google.com/"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  },
+  "yags-theme": {
+    "inverted": false,
+    "color": {
+      "name": "custom",
+      "bg": {
+        "shade": "#181825",
+        "base": "#1E1E2E",
+        "surface": "#242437",
+        "highlight": "#2A2A40"
+      },
+      "fg": {
+        "shade": "#839AE4",
+        "base": "#FFFFFF",
+        "surface": "#cdd6f4",
+        "highlight": "#FFFFFF"
+      },
+      "primary": {
+        "bg": "#15729B",
+        "base": "#74C7EC",
+        "fg": "#FFFFFF"
+      },
+      "secondary": {
+        "bg": "#F5C2E7",
+        "base": "#F5C2E7",
+        "fg": "#FFFFFF"
+      },
+      "palette": {
+        "red": "#E06C75",
+        "green": "#98C379",
+        "yellow": "#E5C07B",
+        "blue": "#61AFEF",
+        "purple": "#C678DD",
+        "cyan": "#56B6C2",
+        "orange": "#FFBB7C"
+      }
+    },
+    "space": {
+      "smallest": "0.125rem",
+      "small": "0.5rem",
+      "medium": "1rem",
+      "large": "1.5rem",
+      "largest": "3rem"
+    }
+  },
+  "yags-surface": {
+    "shadow": {
+      "amount": 5,
+      "blur": 0,
+      "offset": 12,
+      "shadow": "12px 12px 0px rgb(21, 114, 155), 24px 24px 0px rgb(77, 134, 174), 36px 36px 0px rgb(133, 154, 193), 48px 48px 0px rgb(189, 174, 212), 60px 60px 0px rgb(245, 194, 231)"
+    },
+    "borderRadius": 0,
+    "maxWidth": 1000
+  },
+  "yags-bookmarks": [
+    {
+      "id": "pvm4tZ0A9ZQNUGfv",
+      "label": "reddit",
+      "bookmarks": [
+        {
+          "id": "dGznwJbuUeqkexjG",
+          "label": "r/unixporn",
+          "url": "https://reddit.com/r/unixporn"
+        },
+        {
+          "id": "hIg6c5at6QnrDsx3",
+          "label": "r/learnjapanese",
+          "url": "https://www.reddit.com/r/LearnJapanese/"
+        },
+        {
+          "id": "32o8tht08aRj7h29",
+          "label": "r/archlinux",
+          "url": "https://www.reddit.com/r/archlinux/"
+        },
+        {
+          "id": "e6WO0s22om7OAx3I",
+          "label": "r/leagueoflegends",
+          "url": "https://www.reddit.com/r/leagueoflegends/"
+        }
+      ]
+    },
+    {
+      "id": "dEfxTDbwy96sIK3b",
+      "label": "school",
+      "bookmarks": [
+        {
+          "id": "IUIicTdwGGewMvO5",
+          "label": "mgccc dashboard",
+          "url": "https://mygulfcoast.mgccc.edu/dashboard"
+        },
+        {
+          "id": "eVlZqHbjqmhjDXFx",
+          "label": "Outlook",
+          "url": "https://outlook.office.com/mail/"
+        }
+      ]
+    }
+  ]
 }
